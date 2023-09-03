@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <style>
+        div.center {
+            border: 2px solid;
+            margin: auto;
+            margin-top: 20px;
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="/users">Users</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    
+
+      <div class="center">
+        <h2>HTML Forms</h2>
+        <form action="/users">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Jane"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+          <p>If you click the "Submit" button, the form-data will be sent to a page called <b>Users</b>.</p>
+
+      </div>
+      
+      
+      
+
+</body>
+</html>
